@@ -1,1 +1,152 @@
-/* Aquí va el CSS */
+#pikachu{
+    background-color: yellow;
+    width: 5px;
+    padding-right: 250px;
+    float: left;
+    border-radius: 5px;
+    z-index: -300;
+    border: 10px solid rgb(yellow);
+}
+#bulbasaur{
+    background-color: rgb(51, 255, 0);
+    width: 5px;
+    height: 470px;
+    padding-right: 250px;
+    float: left;
+    border-radius: 5px;
+    z-index: -300;
+    border: 10px solid rgb(rgb(33, 255, 89));
+}
+#squirtle{
+    background-color: aquamarine;
+    width: 5px;
+    height: 470px;
+    padding-right: 250px;
+    float: left;
+    border-radius: 5px;
+    z-index: -300;
+    border: 10px solid rgb(rgb(3, 122, 169));
+}
+#charmander{
+    background-color:red;
+    width: 5px;
+    height: 470px;
+    padding-right: 250px;
+    float: left;
+    border-radius: 5px;
+    z-index: -300;
+    border: 10px solid rgb(rgb(255, 123, 0));
+}
+#cabezera{
+    font-size: large;
+}
+.nombre{
+    padding-left: 30px;
+    font-size: 23px;
+}
+.salud{
+    padding-left: 200px;
+    font-size: medium;
+    width: 100px;
+    right: 50px;
+}
+.salud-bulbasaur{
+    padding-left: 200px;
+    font-size: medium;
+    width: 100px;
+    right: 50px;
+}
+.salud-squirtle{
+    padding-left: 200px;
+    padding-right: 100px;
+    font-size: medium;
+    width: 100px;
+    right: 50px;
+}
+.salud-charmander{
+    padding-left: 200px;
+    padding-right: 100px;
+    font-size: medium;
+    width: 100px;
+    right: 50px;
+}
+#imagen{
+    padding-left: 10px;
+}
+#imagen-bulbasaur{
+    padding-left: 10px;
+}
+#imagen-squirtle{
+    padding-left: 10px;
+}
+#imagen-charmander{
+    padding-left: 10px;
+}
+.pikachupng{
+    position: absolute;
+    top: 150px;
+    left: 20px;
+    z-index: 300;
+}
+.bulbasaurpng{
+    position: absolute;
+    top: 150px; ;
+    left: 300px;
+    z-index: 300;
+}
+.squirtlepng{
+    position: absolute;
+    top: 150px;
+    left: 550px; ;
+    z-index: 300;
+}
+.charmanderpng{
+    position: absolute;
+    top: 150px;
+    left: 850px;
+    z-index: 300;
+}
+.fondo{
+    top: 60px;
+    width: 230px;
+    z-index: -300;
+}
+.fondo1{
+    top: 60px;
+    width: 230px;
+    z-index: -300;
+}
+.fondo2{
+    top: 60px;
+    width: 230px;
+    z-index: -300;
+}
+.fondo3{
+    top: 60px;
+    width: 230px;
+    z-index: -300;
+}
+#habilidades{
+    padding-right: 30px;
+    padding-left: 40px;
+    width: 200;
+    font-size: small;
+}
+#habilidades-bulbasaur{
+    padding-right: 30px;
+    padding-left: 40px;
+    width: 200;
+    font-size: small;
+}
+#habilidades-squirtle{
+    padding-right: 30px;
+    padding-left: 40px;
+    width: 200;
+    font-size: small;
+}
+#habilidades-charmander{
+    padding-right: 30px;
+    padding-left: 40px;
+    width: 200;
+    font-size: small;
+}
