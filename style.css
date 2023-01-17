@@ -1,1 +1,167 @@
-/* Aquí va el CSS */
+#Pokemon1 {
+    background-color: aqua;
+    width: 5px;
+    padding-right: 250px;
+    margin-left: 5px;
+    z-index: -300;
+    float: left;
+    border-radius: 10px;
+    border: 10px solid rgb(16, 93, 170);
+}
+#Pokemon2 {
+    background-color: yellow;
+    width: 5px;
+    height: 470px;
+    padding-right: 250px;
+    margin-left: 5px;
+    z-index: -300;
+    float: left;
+    border-radius: 10px;
+    border: 10px solid gold
+}
+#Pokemon3 {
+    background-color: orangered;
+    width:5px;
+    height:470px;
+    padding-right: 250px;
+    margin-left: 5px;
+    z-index: -300;
+    float: left;
+    border-radius: 10px;
+    border: 10px solid red;
+
+}
+#Pokemon4 {
+    background-color: green;
+    width:5px;
+    height:470px;
+    padding-right: 250px;
+    margin-left: 5px;
+    z-index: -300;
+    float: left;
+    border-radius: 10px;
+    border: 10px solid  rgb(12, 108, 12);
+}
+
+#cabezera {
+    font-size: large;
+}
+
+.nombre {
+    padding-left: 30px;
+    font-size: 20px;
+}
+.hp {
+   padding-left: 200px;
+   font-size: medium;
+   width: 100px;
+   right: 50px;
+  
+}
+.hp2 {
+    padding-left: 200px;
+    font-size: medium;
+    width: 100px;
+    right: 50px; 
+}
+.hp3 {
+   padding-left: 200px;
+   padding-right: 100px;
+   font-size: medium;
+   width: 100px;
+   right: 60px;
+}
+.hp4 {
+   padding-left: 200px;
+   padding-right: 100px;
+   font-size: medium;
+   width: 100px;
+   right: 70px;
+}
+#imagen {
+    padding-left: 10px;
+}
+#imagen2 {
+    padding-left: 10px;
+}
+#imagen3 {
+    padding-left: 10px;
+}
+#imagen4 {
+    padding-left: 10px;
+}
+.squirtle {
+    position: absolute;
+    top: 150px;
+    left:20px;
+    z-index: 300;
+}
+.pikachu {
+    position: absolute;
+    top: 150px;
+    left:300px;
+    z-index: 300;
+}
+.charmander {
+    position: absolute;
+    top: 150px;
+    left:550px;
+    z-index: 300;
+}
+.bulbasaur {
+    position: absolute;
+    top: 150px;
+    left: 850px;
+    z-index: 300;
+}  
+.fondo {
+    top: 60px;
+    width: 230px;
+    z-index: -300;
+}
+.fondo2 {
+    top: 60px;
+    width: 230px;
+    z-index: -300; 
+}
+.fondo3 {
+    top: 60px;
+    width: 230px;
+    z-index: -300;
+}    
+.fondo4 {
+    top: 60px;
+    width: 230px;
+    z-index: -300;
+}
+
+#habilidades {
+    padding-right: 30px;
+    padding-left: 40px;
+    width: 200px;
+    
+    font-size: small;
+}
+#habilidades2 {
+    padding-right: 30px;
+    padding-left: 40px;
+    width: 200px;
+    
+    font-size: small;
+}
+#habilidades3 {
+    padding-right: 30px;
+    padding-left: 40px;
+    width: 200px;
+    
+    font-size: small;
+}
+#habilidades4 {
+    padding-right: 30px;
+    padding-left: 40px;
+    width: 200px;
+    
+    font-size: small;
+}
+
+
