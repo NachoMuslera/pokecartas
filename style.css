@@ -1,124 +1,122 @@
-#Pokemon1 {
-    background-color: aqua;
+#pikachu{
+    background-color: yellow;
     width: 5px;
     padding-right: 250px;
-    margin-left: 5px;
-    z-index: -300;
     float: left;
-    border-radius: 10px;
-    border: 10px solid rgb(16, 93, 170);
+    border-radius: 5px;
+    z-index: -300;
+    border: 10px solid rgb(yellow);
 }
-#Pokemon2 {
-    background-color: yellow;
+#bulbasaur{
+    background-color: rgb(51, 255, 0);
     width: 5px;
     height: 470px;
     padding-right: 250px;
-    margin-left: 5px;
-    z-index: -300;
     float: left;
-    border-radius: 10px;
-    border: 10px solid gold
+    border-radius: 5px;
+    z-index: -300;
+    border: 10px solid rgb(rgb(33, 255, 89));
 }
-#Pokemon3 {
-    background-color: orangered;
-    width:5px;
-    height:470px;
+#squirtle{
+    background-color: aquamarine;
+    width: 5px;
+    height: 470px;
     padding-right: 250px;
-    margin-left: 5px;
-    z-index: -300;
     float: left;
-    border-radius: 10px;
-    border: 10px solid red;
-
+    border-radius: 5px;
+    z-index: -300;
+    border: 10px solid rgb(rgb(3, 122, 169));
 }
-#Pokemon4 {
-    background-color: green;
-    width:5px;
-    height:470px;
+#charmander{
+    background-color:red;
+    width: 5px;
+    height: 470px;
     padding-right: 250px;
-    margin-left: 5px;
-    z-index: -300;
     float: left;
-    border-radius: 10px;
-    border: 10px solid  rgb(12, 108, 12);
+    border-radius: 5px;
+    z-index: -300;
+    border: 10px solid rgb(rgb(255, 123, 0));
 }
-
-#cabezera {
+#cabezera{
     font-size: large;
 }
-
-.nombre {
+.nombre{
     padding-left: 30px;
-    font-size: 20px;
+    font-size: 23px;
 }
-.hp {
-   padding-left: 200px;
-   font-size: medium;
-   width: 100px;
-   right: 50px;
-  
-}
-.hp2 {
+.salud{
     padding-left: 200px;
     font-size: medium;
     width: 100px;
-    right: 50px; 
+    right: 50px;
 }
-.hp3 {
-   padding-left: 200px;
-   padding-right: 100px;
-   font-size: medium;
-   width: 100px;
-   right: 60px;
+.salud-bulbasaur{
+    padding-left: 200px;
+    font-size: medium;
+    width: 100px;
+    right: 50px;
 }
-.hp4 {
-   padding-left: 200px;
-   padding-right: 100px;
-   font-size: medium;
-   width: 100px;
-   right: 70px;
+.salud-squirtle{
+    padding-left: 200px;
+    padding-right: 100px;
+    font-size: medium;
+    width: 100px;
+    right: 50px;
 }
-#imagen {
+.salud-charmander{
+    padding-left: 200px;
+    padding-right: 100px;
+    font-size: medium;
+    width: 100px;
+    right: 50px;
+}
+#imagen{
     padding-left: 10px;
 }
-#imagen2 {
+#imagen-bulbasaur{
     padding-left: 10px;
 }
-#imagen3 {
+#imagen-squirtle{
     padding-left: 10px;
 }
-#imagen4 {
+#imagen-charmander{
     padding-left: 10px;
 }
-.squirtle {
+.pikachupng{
     position: absolute;
     top: 150px;
-    left:20px;
+    left: 20px;
     z-index: 300;
 }
-.pikachu {
+.bulbasaurpng{
+    position: absolute;
+    top: 150px; ;
+    left: 300px;
+    z-index: 300;
+}
+.squirtlepng{
     position: absolute;
     top: 150px;
-    left:300px;
+    left: 550px; ;
     z-index: 300;
 }
-.charmander {
-    position: absolute;
-    top: 150px;
-    left:550px;
-    z-index: 300;
-}
-.bulbasaur {
+.charmanderpng{
     position: absolute;
     top: 150px;
     left: 850px;
     z-index: 300;
+<<<<<<< HEAD
 }  
 .fondo {
+=======
+}
+.fondo{
+>>>>>>> 9d55bdd63ece678abc4d423bd0e5ba96ea39e28d
     top: 60px;
     width: 230px;
     z-index: -300;
 }
+<<<<<<< HEAD
 .fondo2 {
     top: 60px;
     width: 230px;
@@ -130,10 +128,14 @@
     z-index: -300;
 }    
 .fondo4 {
+=======
+.fondo1{
+>>>>>>> 9d55bdd63ece678abc4d423bd0e5ba96ea39e28d
     top: 60px;
     width: 230px;
     z-index: -300;
 }
+<<<<<<< HEAD
 
 #habilidades {
     padding-right: 30px;
@@ -165,3 +167,39 @@
 }
 
 
+=======
+.fondo2{
+    top: 60px;
+    width: 230px;
+    z-index: -300;
+}
+.fondo3{
+    top: 60px;
+    width: 230px;
+    z-index: -300;
+}
+#habilidades{
+    padding-right: 30px;
+    padding-left: 40px;
+    width: 200;
+    font-size: small;
+}
+#habilidades-bulbasaur{
+    padding-right: 30px;
+    padding-left: 40px;
+    width: 200;
+    font-size: small;
+}
+#habilidades-squirtle{
+    padding-right: 30px;
+    padding-left: 40px;
+    width: 200;
+    font-size: small;
+}
+#habilidades-charmander{
+    padding-right: 30px;
+    padding-left: 40px;
+    width: 200;
+    font-size: small;
+}
+>>>>>>> 9d55bdd63ece678abc4d423bd0e5ba96ea39e28d
